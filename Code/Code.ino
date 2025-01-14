@@ -13,7 +13,7 @@
 }
 
   void loop() {
-  // Acende os LEDs em ordem decrescente
+    // Acende os LEDs em ordem decrescente
     for (int indice = 9; indice >= 0; indice--) {
       digitalWrite(pinosLeds[indice], HIGH); // Liga o LED
       delay(250); // Aguarda 250ms
